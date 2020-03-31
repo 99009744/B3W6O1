@@ -9,21 +9,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="row bg-dark">
 
-<div>
-    <div>
+<div class="container my-2 px-5 py-3 my-2">
+    <div class="row bg-secondary d-flex flex-row-reverse d-flex">
         <div>
-            <h1>Bootstrap Puzzle 2</h1>
+            <h1 class="mr-3">Bootstrap Puzzle 2</h1>
         </div>
-        <div>
-            <a></a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="puzzle1.html">Puzzle 1</a></li>
-                <li><a href="puzzle2.html">Puzzle 2</a></li>
-                <li><a href="puzzle3.html">Puzzle 3</a></li>
-                <li><a href="bonus.html">Bonus</a></li>
+        <div class="col-8">
+            <a class="btn btn-primary dropdown-toggle data-toggle=dropdown bg-secondary p-3 border border-secondary" data-toggle="dropdown">
+                <i class="fas fa-bars"></i>
+            </a>
+            <ul class="dropdown-menu ">
+                <li class="dropdown-item"><a href="index.html" class="nav-link active btn btn-outline-primary">Home</a></li>
+                <li class="dropdown-item"><a href="puzzle1.html" class="nav-link active">Puzzle 1</a></li>
+                <li class="dropdown-item"><a href="puzzle2.html" class="nav-link active">Puzzle 2</a></li>
+                <li class="dropdown-item"><a href="puzzle3.html" class="nav-link active">Puzzle 3</a></li>
+                <li class="dropdown-item"><a href="bonus.html" class="nav-link active">Bonus</a></li>
             </ul>
         </div>
     </div>
